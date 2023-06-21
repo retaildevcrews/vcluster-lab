@@ -82,6 +82,81 @@ spec:
       - cluster: management
         url: https://kubernetes.default.svc
         workload-cluster: vcluster25
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster26
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster27
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster28
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster29
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster30
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster31
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster32
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster33
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster34
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster35
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster36
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster37
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster38
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster39
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster40
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster41
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster42
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster43
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster44
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster45
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster46
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster47
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster48
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster49
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster50        
   template:
     metadata:
       name: '{{workload-cluster}}'
