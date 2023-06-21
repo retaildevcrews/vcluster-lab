@@ -1,0 +1,6 @@
+syncer:
+  extraArgs:
+  - --tls-san=w2.vcluster.joaquin.dev
+sync:
+  ingresses:
+    enabled: true
