@@ -9,13 +9,79 @@ spec:
       elements:
       - cluster: management
         url: https://kubernetes.default.svc
-        workload-cluster: vcminion1
+        workload-cluster: vcluster1
       - cluster: management
         url: https://kubernetes.default.svc
-        workload-cluster: vcminion2
+        workload-cluster: vcluster2
       - cluster: management
         url: https://kubernetes.default.svc
-        workload-cluster: vcminion3                
+        workload-cluster: vcluster3
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster4
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster5
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster6
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster7
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster8
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster9
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster10
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster11
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster12
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster13
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster14
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster15       
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster16
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster17
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster18
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster19
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster20
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster21
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster22
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster23
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster24
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster25
   template:
     metadata:
       name: '{{workload-cluster}}'
