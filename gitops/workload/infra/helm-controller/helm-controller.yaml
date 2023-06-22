@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
-  name: helm-controller
+  name: helm-controller-workload
   namespace: argocd
   annotations:
     argocd.argoproj.io/sync-wave: "2"
@@ -19,7 +19,7 @@ spec:
       sources:
       - repoURL: 'https://github.com/retaildevcrews/vcluster-lab.git'
         targetRevision: main
-        path: gitops/workload/infra/helm-controller
+        path: apps/infra/helm-controller
       destination:
         server: '{{server}}'
         namespace: flux-system
