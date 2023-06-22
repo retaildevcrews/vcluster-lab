@@ -22,6 +22,9 @@ spec:
       - cluster: management
         url: https://kubernetes.default.svc
         workload-cluster: vcluster5
+      - cluster: management
+        url: https://kubernetes.default.svc
+        workload-cluster: vcluster6        
   template:
     metadata:
       name: '{{workload-cluster}}'
